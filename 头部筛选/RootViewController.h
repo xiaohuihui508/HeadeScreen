@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  头部筛选
 //
 //  Created by mac on 17/2/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

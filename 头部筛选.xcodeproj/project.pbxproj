@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		04D001C61E54240B00354DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001C51E54240B00354DC5 /* main.m */; };
 		04D001C91E54240B00354DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001C81E54240B00354DC5 /* AppDelegate.m */; };
-		04D001CC1E54240B00354DC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001CB1E54240B00354DC5 /* ViewController.m */; };
 		04D001CF1E54240B00354DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D001CD1E54240B00354DC5 /* Main.storyboard */; };
 		04D001D11E54240B00354DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D001D01E54240B00354DC5 /* Assets.xcassets */; };
 		04D001D41E54240B00354DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D001D21E54240B00354DC5 /* LaunchScreen.storyboard */; };
 		04D001DF1E54240B00354DC5 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001DE1E54240B00354DC5 /* ____Tests.m */; };
 		04D001EA1E54240B00354DC5 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001E91E54240B00354DC5 /* ____UITests.m */; };
+		04D001FA1E5424AD00354DC5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001F91E5424AD00354DC5 /* RootViewController.m */; };
+		04D001FD1E5424B800354DC5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001FC1E5424B800354DC5 /* SecondViewController.m */; };
+		04D002001E54262800354DC5 /* SMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D001FF1E54262800354DC5 /* SMenuButton.m */; };
+		04D002031E5426AA00354DC5 /* SPullDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D002021E5426AA00354DC5 /* SPullDownMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		04D001C51E54240B00354DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D001C71E54240B00354DC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04D001C81E54240B00354DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04D001CA1E54240B00354DC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04D001CB1E54240B00354DC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04D001CE1E54240B00354DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D001D01E54240B00354DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D001D31E54240B00354DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,15 @@
 		04D001E51E54240B00354DC5 /* 头部筛选UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "头部筛选UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D001E91E54240B00354DC5 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		04D001EB1E54240B00354DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D001F81E5424AD00354DC5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		04D001F91E5424AD00354DC5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		04D001FB1E5424B800354DC5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04D001FC1E5424B800354DC5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04D001FE1E54262800354DC5 /* SMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMenuButton.h; sourceTree = "<group>"; };
+		04D001FF1E54262800354DC5 /* SMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMenuButton.m; sourceTree = "<group>"; };
+		04D002011E5426AA00354DC5 /* SPullDownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPullDownMenuView.h; sourceTree = "<group>"; };
+		04D002021E5426AA00354DC5 /* SPullDownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPullDownMenuView.m; sourceTree = "<group>"; };
+		04D002041E5426C200354DC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,13 @@
 		04D001C31E54240B00354DC5 /* 头部筛选 */ = {
 			isa = PBXGroup;
 			children = (
+				04D001F71E54249E00354DC5 /* Views */,
 				04D001C71E54240B00354DC5 /* AppDelegate.h */,
 				04D001C81E54240B00354DC5 /* AppDelegate.m */,
-				04D001CA1E54240B00354DC5 /* ViewController.h */,
-				04D001CB1E54240B00354DC5 /* ViewController.m */,
-				04D001CD1E54240B00354DC5 /* Main.storyboard */,
-				04D001D01E54240B00354DC5 /* Assets.xcassets */,
-				04D001D21E54240B00354DC5 /* LaunchScreen.storyboard */,
-				04D001D51E54240B00354DC5 /* Info.plist */,
+				04D001F81E5424AD00354DC5 /* RootViewController.h */,
+				04D001F91E5424AD00354DC5 /* RootViewController.m */,
+				04D001FB1E5424B800354DC5 /* SecondViewController.h */,
+				04D001FC1E5424B800354DC5 /* SecondViewController.m */,
 				04D001C41E54240B00354DC5 /* Supporting Files */,
 			);
 			path = "头部筛选";
@@ -117,7 +126,12 @@
 		04D001C41E54240B00354DC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04D001CD1E54240B00354DC5 /* Main.storyboard */,
+				04D001D01E54240B00354DC5 /* Assets.xcassets */,
+				04D001D21E54240B00354DC5 /* LaunchScreen.storyboard */,
+				04D001D51E54240B00354DC5 /* Info.plist */,
 				04D001C51E54240B00354DC5 /* main.m */,
+				04D002041E5426C200354DC5 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +152,17 @@
 				04D001EB1E54240B00354DC5 /* Info.plist */,
 			);
 			path = "头部筛选UITests";
+			sourceTree = "<group>";
+		};
+		04D001F71E54249E00354DC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04D001FE1E54262800354DC5 /* SMenuButton.h */,
+				04D001FF1E54262800354DC5 /* SMenuButton.m */,
+				04D002011E5426AA00354DC5 /* SPullDownMenuView.h */,
+				04D002021E5426AA00354DC5 /* SPullDownMenuView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D001CC1E54240B00354DC5 /* ViewController.m in Sources */,
+				04D002001E54262800354DC5 /* SMenuButton.m in Sources */,
+				04D001FD1E5424B800354DC5 /* SecondViewController.m in Sources */,
 				04D001C91E54240B00354DC5 /* AppDelegate.m in Sources */,
 				04D001C61E54240B00354DC5 /* main.m in Sources */,
+				04D002031E5426AA00354DC5 /* SPullDownMenuView.m in Sources */,
+				04D001FA1E5424AD00354DC5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7QB8XUHZX;
+				GCC_PREFIX_HEADER = "$SRCROOT/头部筛选/PrefixHeader.pch";
 				INFOPLIST_FILE = "头部筛选/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PangXieYunGou.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +468,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7QB8XUHZX;
+				GCC_PREFIX_HEADER = "$SRCROOT/头部筛选/PrefixHeader.pch";
 				INFOPLIST_FILE = "头部筛选/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PangXieYunGou.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
